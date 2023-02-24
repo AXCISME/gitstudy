@@ -18,3 +18,5 @@
 git config --gloval user.name 用户名
 
 git config --global user.name 邮箱
+
+123
