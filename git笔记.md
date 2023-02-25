@@ -41,3 +41,10 @@ git config --global user.name 邮箱
 | git clone 远程地址               | 将远程仓库的内容克隆到本地                               |
 | git pull 远程地址别名 远程分支名 | 将远程仓库对于分支最新内容拉下来后与当前本地分支直接合并 |
 
+# 5. 免密登录
+
+1. 在用户文件夹.ssh目录本地生成公钥和私钥 
+
+​	ssh-keygen -t rsa -C 邮箱
+
+2. 复制公钥到github-头像-settings-SSH
