@@ -30,3 +30,4 @@ git config --global user.name 邮箱
 | git checkout 分支名 | 切换分支                     |
 | git merge 分支名    | 把指定的分支合并到当前分支上 |
 
+hot-fix test
